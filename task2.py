@@ -23,7 +23,7 @@ for ind in a.index:
             val =0
             li = []
         else:
-            da.append([name,idd,chapter,test.split("-")[0],li[0],li[1],li[2],li[3],li[4],li[5]])
+            da.append([name,idd,chapter,test.split("-")[0],li[3],li[1],li[3],li[4],li[2],li[5]])
             val = 0
             li = []
 ans = pd.DataFrame(da,columns=['Name', 'Username', 'Chapter Tag','Test_Name','answered','correct','score','skipped','time-taken (seconds)','wrong'])
